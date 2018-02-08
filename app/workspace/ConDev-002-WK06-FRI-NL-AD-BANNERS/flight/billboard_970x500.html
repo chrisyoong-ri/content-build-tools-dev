@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- WEBORAMA SCREENAD META DATA (don't edit/remove) -->
+  <!-- SCRVERSION: screenad_interface_1.0.3 -->
+  <!-- SCRFORMAT: layer -->
+  <!-- SCRWIDTH: 970 -->
+  <!-- SCRHEIGHT: 500 -->
+  <!-- TEMPLATENAME: Smart Double Billboard 970x500 HTML5 -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="//media.adrcdn.com/scripts/screenad_interface_1.0.3_scrambled.js"></script>
+  <script src="//media.adrcdn.com/scripts/external/jquery/jquery-2.1.3.min.js"></script>
+  <script src="billboard_970x500.js"></script>
+  <script>
+    /* Your JS :: Custom Actions */
+    function onDocumentReady() {
+      // Your initialization code
+      $('#billboard').css('opacity', '0'); // Not mandatory (example)
+    }
+
+    function onAdStart() {
+      // Your ad start-up code (called only once when ad starts)
+      $('#billboard').animate({
+        opacity: 1
+      }, 'fast'); // Not mandatory (example)
+    }
+
+    function onExpandStart() {
+      // Your code for when expanding
+      $('#billboard').fadeIn('fast'); // Not mandatory (example)
+    }
+
+    function onExpandComplete() {
+      // Your code for when expanding
+    }
+
+    function onCollapseStart() {
+      // Your code for when collapsing
+    }
+
+    function onCollapseComplete() {
+      // Custom code
+      $('#billboard').fadeOut('fast'); // Not mandatory (example)
+    }
+  </script>
+  <style>
+    /* Mandatory CSS */
+
+    body,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    #billboard {
+      width: 970px;
+      height: 500px;
+      cursor: pointer;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+    }
+
+    #collapseButton {
+      width: 44px;
+      height: 44px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 90;
+      cursor: pointer;
+    }
+    /* Your CSS */
+
+    #background {
+      width: 970px;
+      height: 500px;
+      background: #ebebeb;
+      -webkit-box-shadow: inset 0px 0px 0px 1px #34454E;
+      -moz-box-shadow: inset 0px 0px 0px 1px #34454E;
+      box-shadow: inset 0px 0px 0px 1px #34454E;
+    }
+
+    #weboramaLogo {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      width: 40px;
+      height: auto;
+    }
+
+    .weboramaText {
+      position: absolute;
+      font-family: sans-serif, serif;
+      font-size: 13px;
+      font-weight: bold;
+      color: #34454E;
+      right: 15px;
+    }
+
+    #weboramaTemplateText {
+      bottom: 15px;
+    }
+
+      
+  .image {
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      height: 0;
+      overflow: hidden;
+      background-position: 50% 0;
+      transition: all 0.4s ease 0.1s;
+  }
+
+  #river-island-smart-ad {
+      position: relative;
+      width: 970px;
+      height: 500px;
+      font-size: 0;
+      white-space: nowrap;
+      display: flex;
+  }
+
+  #river-island-smart-ad .ri-text {
+    position: absolute;
+    background-image: url(cta.png);
+    height: 46%;
+    width: 62%;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+  #river-island-smart-ad .display {
+      display: inline-block;
+      height: 100%;
+      width: 25%;
+      flex-grow: 1;
+  }
+
+  #river-island-smart-ad .image-1 {
+      background-image: url(1.jpeg);
+  }
+
+  #river-island-smart-ad .image-2 {
+      background-image: url(2.jpeg);
+  }
+
+  #river-island-smart-ad .image-3 {
+      background-image: url(3.jpeg);
+  }
+
+  #river-island-smart-ad .active {
+      width: 50%;
+  }
+
+  #river-island-smart-ad:hover .display {
+      width: 25%;
+  }
+
+  #river-island-smart-ad .display:hover {
+      width: 50%;
+  }
+
+  #river-island-smart-ad .display a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+
+  </style>
+</head>
+
+<body style="height: 100%">
+
+  <!-- Mandatory -->
+  <img id="collapseButton" src="//media.adrcdn.com/ad-resources/weborama_close_88x88.png" />
+  <div id="billboard" onclick="screenad.click();">
+
+    <!-- Your content HTML -->
+    <div id="river-island-smart-ad">
+      <div class="image-1 display image"></div>
+      <div class="image-2 display image active"></div>
+      <div class="image-3 display image"></div>
+      <div class="ri-text image"></div>
+    </div>
+    <!-- END - Your content HTML - END -->
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- WEBORAMA SCREENAD META DATA (don't edit/remove) -->
+  <!-- SCRVERSION: screenad_interface_1.0.3 -->
+  <!-- SCRFORMAT: layer -->
+  <!-- SCRSTICKY: true -->
+  <!-- SCRWIDTH: 970 -->
+  <!-- SCRHEIGHT: 500 -->
+  <!-- TEMPLATENAME: Smart Billboard 970x500 HTML5 -->
+  <!-- TEMPLATEDATE: 2017-10-06 -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="//media.adrcdn.com/scripts/screenad_interface_1.0.3_scrambled.js"></script>
+  <script src="billboard.js"></script>
+  <script>
+    /** Mandatory Settings */
+    collapsedWidth = 100;
+    collapsedHeight = 40;
+    expandedWidth = 970;
+    expandedHeight = 500;
+    /** End Mandatory Settings */
+
+    /** setStyle will set CSS properties for a specific element.
+     * objectId is the element id
+     * propertyObject is an Object with the CSS properties inside it */
+    function setStyle(objectId, propertyObject) {
+      var element = document.getElementById(objectId);
+      for (var property in propertyObject) {
+        if (element) {
+          element.style[property] = propertyObject[property];
+        }
+      }
+    }
+
+    /* Your JS :: Custom Actions */
+    function onDocumentReady() {
+      // Your initialization code
+      // setStyle('billboard', { opacity: 1 }); // Not mandatory (example)
+    }
+
+    function onAdStart() {
+      // Your ad start-up code (called only once when ad starts)
+      setStyle('billboard', { opacity: 1 }); // Not mandatory (example)
+    }
+
+    function onExpandStart() {
+      // Your code for when expanding
+      setStyle('billboard', { opacity: 1 }); // Not mandatory (example)
+    }
+
+    function onExpandComplete() {
+      // Your code for when expanding is finished
+    }
+
+    function onCollapseStart() {
+      // Your code for when collapsing
+    }
+
+    function onCollapseComplete() {
+      // Your code for when collapse is finished
+      setStyle('billboard', { opacity: 0 }); // Not mandatory (example)
+    }
+
+  </script>
+  <style>
+    /* Mandatory CSS */
+
+    html,
+    body,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    #billboard {
+      width: 970px;
+      height: 500px;
+      cursor: pointer;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 10;
+      -webkit-transition: opacity 0.5s linear;
+      transition: opacity 0.5s linear;
+    }
+
+    #close-open-button {
+      width: 44px;
+      height: 44px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 90;
+      cursor: pointer;
+    }
+
+    /* Your CSS */
+
+    .background {
+      width: 100%;
+      height: 100%;
+      background: #ebebeb;
+      -webkit-box-shadow: inset 0px 0px 0px 1px #34454E;
+      -moz-box-shadow: inset 0px 0px 0px 1px #34454E;
+      box-shadow: inset 0px 0px 0px 1px #34454E;
+    }
+
+    .show {
+      opacity: 1;
+    }
+
+    .hide {
+      opacity: 0;
+    }
+
+    .image__wrapper {
+      width: 33.33%;
+      height: 250px;
+      float: left;
+      background-size: cover;
+    }
+
+    .image {
+      width: 33.33%;
+      height: 250px;
+      position: absolute;
+    }
+
+    .image {
+      width: 33.33%;
+      height: 250px;
+    }
+
+    .image-1a {
+      background: url(1a.jpeg);
+    }
+    .image-1b {
+      background: url(1b.jpeg);
+    }
+    .image-2a {
+      background: url(2a.jpeg);
+    }
+    .image-2b {
+      background: url(2b.jpeg);
+    }
+    .image-3 {
+      background: url(3.jpeg);
+    }
+    .image-4a {
+      background: url(4a.jpeg);
+    }
+    .image-4b {
+      background: url(4b.jpeg);
+    }
+    .image-5a {
+      background: url(5a.jpeg);
+    }
+
+    .image-5b {
+      background: url(5b.jpeg);
+    }
+
+    .image-6a {
+      background: url(6a.jpeg);
+    }
+
+    .image-6b {
+      background: url(6b.jpeg);
+    }
+
+    @keyframes FadeInOut1 {
+      0% {
+        opacity: 0;
+      }
+      9% {
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      20% {}
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      89% {
+        opacity: 1;
+      }
+      90% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+
+    @keyframes FadeInOut2 {
+      0% {
+        opacity: 0;
+      }
+      9% {}
+      10% {}
+      19% {
+        opacity: 0;
+      }
+      20% {
+        opacity: 1;
+      }
+      30% {}
+      40% {}
+      50% {}
+      60% {}
+      69% {
+        opacity: 1;
+      }
+      70% {
+        opacity: 0;
+      }
+      80% {}
+      90% {}
+      99% {}
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes FadeInOut3 {
+      0% {
+        opacity: 0;
+      }
+      9% {}
+      10% {}
+      20% {}
+      29% {
+        opacity: 0;
+      }
+      30% {
+        opacity: 1;
+      }
+      40% {}
+      50% {}
+      60% {}
+      70% {}
+      80% {}
+      90% {}
+      99% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes FadeInOut4 {
+      0% {
+        opacity: 0;
+      }
+      9% {}
+      10% {}
+      20% {}
+      30% {}
+      39% {
+        opacity: 0;
+      }
+      40% {
+        opacity: 1;
+      }
+      50% {}
+      59% {
+        opacity: 1;
+      }
+      60% {
+        opacity: 0;
+      }
+      70% {}
+      80% {}
+      90% {}
+      99% {}
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes FadeInOut5 {
+      0% {
+        opacity: 0;
+      }
+      9% {}
+      10% {}
+      20% {}
+      30% {}
+      40% {}
+      49% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      59% {
+
+      }
+      60% {
+      }
+      70% {
+
+      }
+      79% {
+        opacity: 1;
+      }
+      80% {
+        opacity: 0;
+      }
+      90% {
+
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+
+    .image {
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 10;
+      animation-duration: 10s;
+    }
+
+    .first {
+      animation-name: FadeInOut1;
+    }
+
+    .second {
+      animation-name: FadeInOut2;
+    }
+
+    .third {
+      animation-name: FadeInOut3;
+    }
+
+    .fourth {
+      animation-name: FadeInOut4;
+    }
+
+    .fifth {
+      animation-name: FadeInOut5;
+    }
+  </style>
+</head>
+
+<body style="height: 100%">
+
+  <!-- Mandatory -->
+  <img id="close-open-button" src="//media.adrcdn.com/ad-resources/weborama_close_88x88.png" />
+  <div id="billboard" onclick="screenad.click();">
+
+    <!-- Your content HTML -->
+    <!-- <img src="//media.adrcdn.com/ad-resources/weborama_logo_200x200.png" class="weborama-logo" /> -->
+    <!-- <div class="weborama-text">HTML Smart Double Billboard</div> -->
+
+    <div class="background">
+
+      <div class="image__wrapper">
+        <div class="image image-1a"></div>
+        <div class="image image-1b fourth"></div>
+      </div>
+
+      <div class="image__wrapper">
+        <div class="image image-2a"></div>
+        <div class="image image-2b first"></div>
+      </div>
+
+      <div class="image__wrapper">
+        <div class="image image-3"></div>
+      </div>
+
+      <div class="image__wrapper">
+        <div class="image image-4a"></div>
+        <div class="image image-4b second"></div>
+      </div>
+
+
+      <div class="image__wrapper">
+        <div class="image image-5a"></div>
+        <div class="image image-5b fifth"></div>
+      </div>
+
+      <div class="image__wrapper">
+        <div class="image image-6a"></div>
+        <div class="image image-6b third"></div>
+      </div>
+
+    </div>
+    <!-- END - Your content HTML - END -->
+  </div>
+
+</body>
+
+</html>

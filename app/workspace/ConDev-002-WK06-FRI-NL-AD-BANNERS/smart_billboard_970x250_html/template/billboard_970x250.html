@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- WEBORAMA SCREENAD META DATA (don't edit/remove) -->
+  <!-- SCRVERSION: screenad_interface_1.0.3 -->
+  <!-- SCRFORMAT: layer -->
+  <!-- SCRSTICKY: false -->
+  <!-- SCRWIDTH: 970 -->
+  <!-- SCRHEIGHT: 250 -->
+  <!-- TEMPLATENAME: Smart Billboard 970x250 -->
+  <!-- TEMPLATEDATE: 2017-10-25 -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="//media.adrcdn.com/scripts/screenad_interface_1.0.3_scrambled.js"></script>
+  <script src="//media.adrcdn.com/ad-resources/billboard/2.0.0/billboard.min.js"></script>
+  <script>
+
+    /* Your JS :: Custom Actions */
+
+    function onDocumentReady() {
+      // Your initialization code
+    }
+    function onAdStart() {
+      // Your ad start-up code (called only once when ad starts)
+      setStyle('billboard', { opacity: 1 }, 300); // Optional (example)
+    }
+    function onExpandStart() {
+      // Your code for when expanding starts
+      setStyle('billboard', { opacity: 1 }); // Optional (example)
+    }
+    function onExpandComplete() {
+      // Your code for when expanding is finished
+    }
+    function onCollapseStart() {
+      // Your code for when collapsing starts
+    }
+    function onCollapseComplete() {
+      // Your code for when collapse is finished
+      setStyle('billboard', { opacity: 0 }); // Optional (example)
+    }
+
+    /* Mandatory JS */
+
+    /** Sets CSS properties for a specific element 
+      * @param {String} objectId - Id of the target HTML object
+      * @param {Object} propertyObject - Object with CSS properties and values
+      * @param {Number} [delay=0] - Optional. Delay in milliseconds
+      */
+    function setStyle(objectId, propertyObject, delay) {
+      var element = document.getElementById(objectId), delay = (typeof delay !== undefined) ? delay : 0;
+      if (element) {
+        setTimeout(function () {
+          for (var property in propertyObject) {
+            element.style[property] = propertyObject[property];
+          }
+        }, delay);
+      }
+    }
+
+  </script>
+  <style>
+    /* Mandatory CSS */
+
+    html,
+    body,
+    div {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      height: 100%;
+    }
+
+    #billboard {
+      width: 970px;
+      height: 250px;
+      opacity: 0;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      -webkit-transition: 0.5s linear;
+      transition: 0.5s linear;
+    }
+
+    #close-open-button {
+      width: 44px;
+      height: 44px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 90;
+      cursor: pointer;
+    }
+
+    /* Your CSS */
+
+    .background {
+      width: 100%;
+      height: 100%;
+      background: #ebebeb;
+      -webkit-box-shadow: inset 0px 0px 0px 1px #34454E;
+      -moz-box-shadow: inset 0px 0px 0px 1px #34454E;
+      box-shadow: inset 0px 0px 0px 1px #34454E;
+    }
+
+    .show {
+      opacity: 1;
+    }
+
+    .hide {
+      opacity: 0;
+    }
+
+    .image__wrapper {
+      width: 33.33%;
+      height: 250px;
+      float: left;
+      background-size: cover;
+    }
+
+    .image {
+      width: 33.33%;
+      height: 250px;
+      position: absolute;
+    }
+
+    @keyframes FadeInOut1 {
+      0% {
+        opacity: 1;
+      }
+      24% {
+        opacity: 1;
+      }
+      25% {
+        opacity: 0;
+      }
+      50% {
+
+      }
+      75% {
+
+      }
+      99% { opacity: 0;}
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes FadeInOut2 {
+      0% {
+        opacity: 1;
+      }
+      24% {
+
+      }
+      25% {
+
+      }
+      49% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      75% {
+
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes FadeInOut3 {
+      0% {
+        opacity: 1;
+      }
+      24% {
+
+      }
+      25% {
+
+      }
+      50% {
+
+      }
+      74% {
+        opacity: 1;
+      }
+      75% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes FadeInOut4 {
+      0% {
+        opacity: 1;
+      }
+      24% {
+
+      }
+      25% {
+
+      }
+      50% {
+
+      }
+      75% {
+
+      }
+      99% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    .image {
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 4;
+      animation-duration: 6s;
+    }
+
+    .image-1a {
+      background: url(1a.jpeg);
+      animation-name: FadeInOut1;
+      z-index: 4;
+    }
+
+    .image-1b {
+      background: url(1b.jpeg);
+      animation-name: FadeInOut2;
+      z-index: 3;
+    }
+
+    .image-1c {
+      background: url(1c.jpeg);
+      animation-name: FadeInOut3;
+      z-index: 2;
+    }
+
+    .image-1d {
+      background: url(1d.jpeg);
+      animation-name: FadeInOut4;
+      z-index: 1;
+
+    }
+    .image-2a {
+      background: url(2a.jpeg);
+      animation-name: FadeInOut1;
+      z-index: 4;
+    }
+
+    .image-2b {
+      background: url(2b.jpeg);
+      animation-name: FadeInOut2;
+      z-index: 3;
+    }
+
+    .image-2c {
+      background: url(2c.jpeg);
+      animation-name: FadeInOut3;
+      z-index: 2;
+    }
+
+    .image-2d {
+      background: url(2d.jpeg);
+      animation-name: FadeInOut4;
+      z-index: 1;
+    }
+
+    .image-3 {
+      background: url(3.jpeg);
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Close button and content holder are mandatory -->
+  <img id="close-open-button" src="//media.adrcdn.com/ad-resources/weborama_close_88x88.png" />
+  <div id="billboard" onclick="screenad.click();">
+
+    <!-- START - Your content HTML -->
+    <div class="background">
+
+      <div class="image__wrapper">
+        <div class="image image-1a"></div>
+        <div class="image image-1b"></div>
+        <div class="image image-1c"></div>
+        <div class="image image-1d"></div>
+      </div>
+
+      <div class="image__wrapper">
+        <div class="image image-2a"></div>
+        <div class="image image-2b"></div>
+        <div class="image image-2c"></div>
+        <div class="image image-2d"></div>
+      </div>
+
+      <div class="image__wrapper">
+        <div class="image image-3"></div>
+      </div>
+
+
+    </div>
+    <!-- END - Your content HTML -->
+
+  </div>
+
+</body>
+
+</html>
