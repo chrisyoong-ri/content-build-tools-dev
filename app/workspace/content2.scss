@@ -1,0 +1,405 @@
+// @import 'config';
+// Men's Trends
+// Desktop
+$desktop: "?$desktop$";
+$mobile: "?$mobile$";
+
+$img-hero: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans_hero_desktop_DNT";
+
+$img-section1__promo1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend1_promo1b_desktop_DNT";
+$img-section1__promo2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend1_promo2_desktop_DNT";
+$img-section1__promo3--gif: "https://riverisland.scene7.com/is/content/RiverIsland/_Live/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%201/c20170130_MW-trends_trans-trend1_promo3gif_desktop_DNT.gif";
+
+$img-section2__promo1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend2_promo1b_desktop_DNT";
+$img-section2__promo2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend2_promo2_desktop_DNT";
+$img-section2__promo3--gif: "https://riverisland.scene7.com/is/content/RiverIsland/_Live/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%202/c20170130_MW-trends_trans-trend2_promo3gif_desktop_DNT.gif";
+$img-section3__promo1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend3_promo1b_desktop_DNT";
+
+$img-section3__promo2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend3_promo2_desktop_DNT";
+$img-section3__promo3--gif: "https://riverisland.scene7.com/is/content/RiverIsland/_Live/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%203/c20170130_MW-trends_trans-trend3_promo3gif_desktop_DNT.gif";
+
+$img-section4__promo1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend4_promo1b_desktop_DNT";
+$img-section4__promo2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend4_promo2_desktop_DNT";
+$img-section4__promo3--gif: "https://riverisland.scene7.com/is/content/RiverIsland/_Live/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%204/c20170130_MW-trends_trans-trend4_promo3gif_desktop_DNT.gif";
+// Links
+$link-section1__promo1: "/c/men/courtside-prep";
+$link-section1__promo2: "/c/men/courtside-prep";
+$link-section1__shopnow: "c/men/courtside-prep";
+$link-section2__promo1: "/c/men/modern-miami";
+$link-section2__promo2: "/c/men/modern-miami";
+$link-section2__shopnow: "/c/men/modern-miami";
+$link-section3__promo1: "/c/men/mexicana";
+$link-section3__promo2: "/c/men/mexicana";
+$link-section3__shopnow: "/c/men/mexicana";
+$link-section4__promo1: "/c/men/new-heritage";
+$link-section4__promo2: "/c/men/new-heritage";
+$link-section4__shopnow: "/c/men/new-heritage";
+// MOBILE
+$mobimg-hero: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%5Fhero%5Fmobile%5FDNT";
+
+$mobimg-section1__promo1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fpromo1%5Fmobile%5FDNT";
+$mobimg-section1__promo2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fpromo2%5Fmobile%5FDNT";
+$mobimg-section1__promo3--gif: "https://riverisland.scene7.com/is/content/RiverIsland/%5FLive/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%201/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fpromo3gif%5Fmobile%5FDNT.gif";
+
+$mobimg-cta__shopnow1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fcta%5Fmobile%5FDNT";
+
+$mobimg-section2__promo1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fpromo1%5Fmobile%5FDNT";
+$mobimg-section2__promo2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fpromo2%5Fmobile%5FDNT";
+$mobimg-section2__promo3--gif: "https://riverisland.scene7.com/is/content/RiverIsland/%5FLive/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%202/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fpromo3gif%5Fmobile%5FDNT.gif";
+
+$mobimg-cta__shopnow2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fcta%5Fmobile%5FDNT";
+
+$mobimg-section3__promo1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fpromo1%5Fmobile%5FDNT";
+$mobimg-section3__promo2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fpromo2%5Fmobile%5FDNT";
+$mobimg-section3__promo3--gif: "https://riverisland.scene7.com/is/content/RiverIsland/%5FLive/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%203/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fpromo3gif%5Fmobile%5FDNT.gif";
+
+$mobimg-cta__shopnow3: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fcta%5Fmobile%5FDNT";
+
+$mobimg-section4__promo1: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fpromo1%5Fmobile%5FDNT";
+$mobimg-section4__promo2: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fpromo2%5Fmobile%5FDNT";
+$mobimg-section4__promo3--gif: "https://riverisland.scene7.com/is/content/RiverIsland/%5FLive/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%204/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fpromo3gif%5Fmobile%5FDNT.gif";
+
+$mobimg-cta__shopnow4: "https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fcta%5Fmobile%5FDNT";
+
+.promo-1 {
+    margin-bottom: 1em;
+}
+
+.trends-18 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+
+
+/*  */
+
+.campaign-2,
+.campaign-3,
+.campaign-4 {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    width: 100%;
+    height: 100%;
+    // transition: opacity 0.3s linear;
+}
+
+.campaign-1 {
+    position: relative;
+    z-index: 5;
+    opacity: 1;
+    // transition: opacity 0.3s linear;
+}
+
+.campaign-2,
+.campaign-3,
+.campaign-4 {
+    z-index: 1;
+    // opacity: 0;
+}
+
+footer,
+.info-strip-container {
+    background-color: #ffffff;
+}
+
+footer {
+    margin-top: 0;
+}
+
+.content-wrap {
+    max-width: 1200px;
+}
+
+.fixed-menu {
+    position: absolute;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1% 0 1%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    max-width: 2000px;
+    width: 100%;
+    z-index: 11;
+    text-transform: uppercase;
+    a {
+        width: 100%;
+        height: 100%;
+        z-index: 11;
+        &:hover{
+            font-weight: 600;
+    text-decoration: underline;
+        }
+    }
+}
+
+.fixed-menu li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 1%;
+}
+
+.fixed-menu li:hover {
+    
+}
+
+.fixed-menu-underline {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.black-arrow {
+    position: absolute;
+    background-image: url("https://riverisland.scene7.com/is/image/RiverIsland/c20160525-wk23-hp-get-inspired-mobilearrow-left_DNT?$PNG%20Alpha%20Transparency$&scl=1");
+    width: 3%;
+    padding-bottom: 3%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(-90deg);
+    z-index: 5;
+    background-size: auto 100%;
+}
+
+.content-wrap .promos,
+.content-wrap .hero {
+    height: auto;
+}
+
+.desk-promo-1 {
+    width: 50%;
+    height: 60vw;
+    max-height: 1200px;
+    float: left;
+}
+
+.desk-promo-2 {
+    width: 50%;
+    height: 60vw;
+    max-height: 1200px;
+    float: right;
+}
+
+.desk-promo-3 {
+    // height: 56.7vw;
+    // max-height: 680px;
+}
+
+
+/* TOP HERO */
+
+.top-hero {
+    background-image: url(#{$img-hero}#{$desktop});
+    height: 50vw;
+    max-height: 1000px;
+}
+
+.campaign-1 .desk-hero {
+    background-image: url(#{$img-section1__promo1}#{$desktop});
+    height: 50vw;
+    max-height: 1000px;
+}
+
+.campaign-1 .desk-promo-1 {
+    background-image: url(#{$img-section1__promo2}#{$desktop});
+}
+
+.campaign-1 .desk-promo-2 {
+    background-image: url(#{$img-section1__promo3--gif}#{$desktop});
+}
+
+
+/* CAMPAIGN 2 */
+
+.campaign-2 .desk-hero {
+    background-image: url(#{$img-section2__promo1}#{$desktop});
+    height: 50vw;
+    max-height: 1000px;
+}
+
+.campaign-2 .desk-promo-1 {
+    background-image: url(#{$img-section2__promo2}#{$desktop});
+}
+
+.campaign-2 .desk-promo-2 {
+    background-image: url(#{$img-section2__promo3--gif}#{$desktop});
+}
+
+.campaign-2 .desk-promo-3 {
+    height: 0;
+}
+
+
+/* CAMPAIGN 3 */
+
+.campaign-3 .desk-hero {
+    background-image: url(#{$img-section3__promo1}#{$desktop});
+    height: 50vw;
+    max-height: 1000px;
+}
+
+.campaign-3 .desk-promo-1 {
+    background-image: url(#{$img-section3__promo2}#{$desktop});
+}
+
+.campaign-3 .desk-promo-2 {
+    background-image: url(#{$img-section3__promo3--gif}#{$desktop});
+}
+
+// .region-US .desk-hero,
+// .region-SE .desk-hero,
+// .region-IE .desk-hero,
+// .region-AU .desk-hero,
+// .region-EU .desk-hero {
+// }
+// .region-FR {
+//     .campaign-3 .desk-hero {
+//     }
+// }
+// .region-DE {
+//    .campaign-3 .desk-hero {
+//    }
+// }
+// .region-NL {
+//    .campaign-3 .desk-hero {
+//    }
+// }
+
+/* CAMPAIGN 4 */
+
+.campaign-4 .desk-hero {
+    background-image: url(#{$img-section4__promo1}#{$desktop});
+    height: 50vw;
+    max-height: 1000px;
+}
+
+.campaign-4 .desk-promo-1 {
+    background-image: url(#{$img-section4__promo2}#{$desktop});
+}
+
+.campaign-4 .desk-promo-2 {
+    background-image: url(#{$img-section4__promo3--gif}#{$desktop});
+}
+
+.campaign-4 .desk-promo-3 {
+    height: 0;
+}
+
+.desk-promo-4 video {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 700px) {
+    .fixed-menu li {
+        font-size: 3.8vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .fixed-bg {
+        display: none;
+    }
+    #page.content ul {
+        margin: 0;
+    }
+    .promo-1,
+    .promo-2,
+    .promo-3,
+    .promo-4,
+    .promo-5,
+    .hero {
+        padding-bottom: 0;
+        height: 0;
+        background-image: none;
+    }
+    .black-arrow {
+        display: none;
+    }
+    .mob-top-hero {
+        background-image: url(#{$mobimg-hero}#{$mobile});
+        padding-bottom: 150%;
+    }
+    /* CAMPAIGN 1 */
+    .campaign-1 .mob-promo-1 {
+        background-image: url(#{$mobimg-section1__promo1}#{$mobile});
+        padding-bottom: 150%;
+    }
+    .campaign-1 .mob-promo-2 {
+        background-image: url(#{$mobimg-section1__promo2}#{$mobile});
+        padding-bottom: 137.903%;
+    }
+    .campaign-1 .mob-promo-3 {
+        background-image: url(#{$mobimg-section1__promo3--gif}#{$mobile});
+        padding-bottom: 137.903%;
+    }
+    .campaign-1 .mob-cta {
+        background-image: url(#{$mobimg-cta__shopnow1}#{$mobile});
+        padding-bottom: 12.903%;
+    }
+    /* CAMPAIGN 2 */
+    .campaign-2 .mob-promo-1 {
+        background-image: url(#{$mobimg-section2__promo1}#{$mobile});
+        padding-bottom: 150%;
+    }
+    .campaign-2 .mob-promo-2 {
+        background-image: url(#{$mobimg-section2__promo2}#{$mobile});
+        padding-bottom: 140.968%;
+    }
+    .campaign-2 .mob-promo-3 {
+        background-image: url(#{$mobimg-section2__promo3--gif}#{$mobile});
+        padding-bottom: 151.452%;
+    }
+    .campaign-2 .mob-cta {
+        background-image: url(#{$mobimg-cta__shopnow2}#{$mobile});
+        padding-bottom: 12.903%;
+    }
+    .campaign-3 .mob-promo-1 {
+        background-image: url(#{$mobimg-section3__promo1}#{$mobile});
+        padding-bottom: 150%;
+    }
+    .campaign-3 .mob-promo-2 {
+        background-image: url(#{$mobimg-section3__promo2}#{$desktop});
+        padding-bottom: 142.742%;
+    }
+    .campaign-3 .mob-promo-3 {
+        background-image: url(#{$mobimg-section3__promo3--gif}#{$desktop});
+        padding-bottom: 140.484%;
+    }
+    .campaign-3 .mob-cta {
+        background-image: url(#{$mobimg-cta__shopnow3}#{$mobile});
+        padding-bottom: 12.903%;
+    }
+    /* CAMPAIGN 4 */
+    .campaign-4 .mob-promo-1 {
+        background-image: url(#{$mobimg-section4__promo1}#{$desktop});
+        padding-bottom: 150%;
+    }
+    .campaign-4 .mob-promo-2 {
+        background-image: url(#{$mobimg-section4__promo2}#{$desktop});
+        padding-bottom: 142.742%;
+    }
+    .campaign-4 .mob-promo-3 {
+        background-image: url(#{$mobimg-section4__promo3--gif}#{$desktop});
+        padding-bottom: 140.484%;
+    }
+    .campaign-4 .mob-cta {
+        background-image: url(#{$mobimg-cta__shopnow4}#{$mobile});
+        padding-bottom: 12.903%;
+    }
+}
+
+@media (max-width: 700px) {
+    .fixed-menu li {
+        font-size: 3.8vw;
+    }
+}

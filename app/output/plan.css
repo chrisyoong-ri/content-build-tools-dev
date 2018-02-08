@@ -1,0 +1,338 @@
+/***************
+ INTERNATIONAL
+****************/
+
+.NL,
+.DE,
+.FR {
+    display: none !important;
+}
+
+.region-NL .NL,
+.region-DE .DE,
+.region-FR .FR {
+    display: block !important;
+}
+
+.region-NL .UK,
+.region-DE .UK,
+.region-FR .UK {
+    display: none;
+}
+.region-UK .not-UK{
+    display: none;
+}
+
+.fr-only {
+    display:none;
+}
+
+.region-FR .fr-only {
+    display:block;
+}
+
+.region-FR .fr-hide {
+    display:none;
+}
+
+/* FRENCH SALES BANNER */
+.region-FR .french-banner {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180104-bwlp-sale-banner-SOLDES_DNT_fr?$desktop$);
+    padding-bottom: 24.333%;
+    margin-bottom: 2%;
+}
+
+/* HERO : Page Boy */
+.hero {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT?$desktop$);
+    padding-bottom: 50.5%;
+}
+.region-US .hero,
+.region-SE .hero,
+.region-IE .hero,
+.region-AU .hero,
+.region-EU .hero  {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT_int?$desktop$);
+}
+.region-FR .hero {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT_fr?$desktop$);
+}
+.region-DE .hero {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT_de?$desktop$);
+}
+.region-NL .hero {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT_nl?$desktop$);
+}
+
+/* PROMO 1 : Fast track */
+.promo-1 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-promo1_DNT?$desktop$);
+    padding-bottom: 45.833%;
+}
+.region-US .promo-1,
+.region-SE .promo-1,
+.region-IE .promo-1,
+.region-AU .promo-1,
+.region-EU .promo-1 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-promo1_DNT_int?$desktop$);
+}
+
+/* JANUARY EDIT */
+.january-edit {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180102-bwlp-jan_edit_banner_DNT?$desktop$);
+    padding-bottom: 26.3%;
+    margin-top: 4%;
+}
+
+/* PROMO 2 - jeans + tshirts */
+.promo-2 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-promo2_DNT?$desktop$);
+    padding-bottom: 58.917%;
+    margin-bottom: 2%;
+    margin-top: 4.5%;
+}
+.region-US .promo-2,
+.region-SE .promo-2,
+.region-IE .promo-2,
+.region-AU .promo-2,
+.region-EU .promo-2 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-promo2_DNT_int?$desktop$);
+}
+
+/* WINTER SUN */
+.winter-sun {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-holiday-banner_DNT?$desktop$);
+    padding-bottom: 18.833%;
+    margin-top: 2%;
+}
+.region-US .winter-sun,
+.region-SE .winter-sun,
+.region-IE .winter-sun,
+.region-AU .winter-sun,
+.region-EU .winter-sun {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-holiday-banner_DNT?$desktop$);
+}
+.region-FR .winter-sun {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20171220_bwlp_wk51_sat_holidayshop_banner_DNT_fr?$desktop$);
+}
+.region-DE .winter-sun {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20171220_bwlp_wk51_sat_holidayshop_banner_DNT_de?$desktop$);
+}
+.region-NL .winter-sun {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20171220_bwlp_wk51_sat_holidayshop_banner_DNT_nl?$desktop$);
+}
+
+/***************
+ RETINA DISPLAY 
+*****************/
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+    /* FRENCH SALES BANNER */
+    .region-FR .french-banner {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180104-bwlp-sale-banner-SOLDES_DNT_fr?$retina$);
+    }
+
+    /* HERO : Page Boy */
+    .hero {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT?$retina$);
+        padding-bottom: 50.458%;
+    }
+    .region-US .hero,
+    .region-SE .hero,
+    .region-IE .hero,
+    .region-AU .hero,
+    .region-EU .hero {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT_int?$retina$);
+    }
+    .region-FR .hero {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT_fr?$retina$);
+    }
+    .region-DE .hero {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT_de?$retina$);
+    }   
+    .region-NL .hero {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero_DNT_nl?$retina$);
+    }
+
+    /* PROMO 1 : Fast track */
+    .promo-1 {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-promo1_DNT?$retina$);
+    }
+    .region-US .promo-1,
+    .region-SE .promo-1,
+    .region-IE .promo-1,
+    .region-AU .promo-1,
+    .region-EU .promo-1 {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-promo1_DNT_int?$retina$);
+    }
+
+    /* JANUARY EDIT */
+    .january-edit {
+      background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180102-bwlp-jan_edit_banner_DNT?$retina$);
+    }    
+
+    /* PROMO 2 */
+    .promo-2 {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-promo2_DNT?$retina$);
+    }
+    .region-US .promo-2,
+    .region-SE .promo-2,
+    .region-IE .promo-2,
+    .region-AU .promo-2,
+    .region-EU .promo-2 {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-promo2_DNT_int?$retina$);
+    }
+
+    /* WINTER SUN */
+    .winter-sun {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-holiday-banner_DNT?$retina$);
+    }
+    .region-US .winter-sun,
+    .region-SE .winter-sun,
+    .region-IE .winter-sun,
+    .region-AU .winter-sun,
+    .region-EU .winter-sun {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-holiday-banner_DNT?$retina$);
+    }
+    .region-FR .winter-sun {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20171220_bwlp_wk51_sat_holidayshop_banner_DNT_fr?$retina$);
+    }
+    .region-DE .winter-sun {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20171220_bwlp_wk51_sat_holidayshop_banner_DNT_de?$retina$);
+    }
+    .region-NL .winter-sun {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20171220_bwlp_wk51_sat_holidayshop_banner_DNT_nl?$retina$);
+    }
+}
+
+
+/***********************
+ SMALL SCREEN DISPLAY 
+*************************/
+
+@media only screen and (max-width: 700px) {
+    /* FRENCH SALES BANNER */
+    .region-FR .french-banner-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180104-bwlp-sale-mob-SOLDES_DNT_fr?$mobile$);
+        padding-bottom: 88.71%;
+        margin-bottom:4%;
+    }
+
+    /* HERO : Page boy */
+   .hero-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero-mob_DNT?$mobile$);
+        padding-bottom: 89.194%; 
+    } 
+    .region-US .hero-mob,
+    .region-SE .hero-mob,
+    .region-IE .hero-mob,
+    .region-AU .hero-mob,
+    .region-EU .hero-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero-mob_DNT_int?$mobile$);
+    }
+    .region-FR .hero-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero-mob_DNT_fr?$mobile$);
+    }
+    .region-DE .hero-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero-mob_DNT_de?$mobile$);
+    }
+    .region-NL .hero-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-hero-mob_DNT_nl?$mobile$);
+    }
+
+    /* LINKS SECTION : Fast track */
+    .links-section {
+        text-align: center;
+        padding: 3% 0;
+        margin-top: 0;
+        border-top: solid 1px #ccc;
+        border-bottom: solid 1px #ccc;
+        margin-top: 0%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .links-section li {
+        padding: 7%;
+    }
+    .links-section h2 {
+        font-weight: 900;
+        font-size: 1.5rem;
+        color: #000000 !important;
+    }
+    .links-section a {
+        padding-bottom: 3%;
+        font-size: calc(0.9em + .3vw);
+        font-weight: 500;
+        color: #000000 !important;
+    }
+    .fast-track-mob {
+        position: relative;
+        vertical-align: top;
+    }
+
+    /* PROMO 1 : Outerwear + Footwear */
+    .promo-1-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-mob1_DNT?$mobile$);
+        padding-bottom: 84.677%;
+        margin-top: 4%;
+    }
+    .region-US .promo-1-mob,
+    .region-SE .promo-1-mob,
+    .region-IE .promo-1-mob,
+    .region-AU .promo-1-mob,
+    .region-EU .promo-1-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-mob1_DNT_int?$mobile$);
+    }
+
+    /* JANUARY EDIT */
+    .january-edit-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180102-bwlp-jan_edit_banner_mob_DNT?$mobile$);
+        padding-bottom: 87.97%;
+        margin-bottom: 2%;
+        margin-top: 7%;
+    }
+
+    /* PROMO 2 : Shirts */
+    .promo-2-mob {
+        background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/c20180118-bwlp-mob2-gif_DNT?scl=1);
+        padding-bottom: 118.065%;
+    }
+    .region-US .promo-2-mob,
+    .region-SE .promo-2-mob,
+    .region-IE .promo-2-mob,
+    .region-AU .promo-2-mob,
+    .region-EU .promo-2-mob  {
+        background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/c20180118-bwlp-mob2-gif_DNT_int?scl=1);
+    }
+
+    /* PROMO 3 : Denim */
+    .promo-3-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-mob3_DNT?$mobile$);
+        padding-bottom: 127.419%;
+        margin-top: 7%;
+    }
+
+    /* WINTER SUN : Holiday Shop */
+    .holiday-shop-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180118-bwlp-holiday-banner-mob_DNT?$mobile$);
+        padding-bottom: 82.258%;
+        margin-top: 3%;
+    }    
+}
+
+@media only screen and (max-width: 460px) {
+    .links-section li {
+        padding: 4%;
+    }
+    .links-section a {
+        font-size: 86%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .links-section a {
+        font-size: 90%;
+    }
+}

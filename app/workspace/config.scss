@@ -1,0 +1,122 @@
+//	IMAGE PRESETS 
+//
+//		- $mobile$ - scl=1
+//		
+//		- $desktop$ - scl=2
+//		- $retina$ - scl=1
+//
+//		TO DO
+//
+//		- $tablet-tfw$ - turns true-fw to width 1536px - scl=2.60416666666667
+//		- $tablet-efw$ - turns extend-fw to width 1536px - scl=1.667&cropN=0.18,0,0.64,1
+//		- $tablet-img$ - turns standard image to width 1536px - scl=1.5625 // *same as below so will use that image preset*
+//
+//		- $desktop-sm$ - turns true-fw to width 1280px - scl=3.125
+//		- $retina-sm$ - turns true-fw to width 2560px - scl=1.5625
+//
+//		- $desktop-sm_crop$ - turns extend-fw to width 1280px - scl=2&cropN=0.18,0,0.64,1
+//		- $retina-sm_crop$ - turns extend-fw to width 2560px - scl=1&cropN=0.18,0,0.64,1
+//
+//		- $desktop-md$ - turns true-fw to width 1440px - scl=2.77777777777778
+//		- $retina-md$ - turns true-fw to width 2880px - scl=1.38888888888889
+//
+//		- $desktop-md_crop$ - turns extend-fw to width 1440px - scl=2&cropN=0.14,0,0.72,1
+//		- $retina-md_crop$ - turns extend-fw to width 2880px - scl=1&cropN=0.14,0,0.72,1
+
+//	MEDIA QUERIES
+
+$desktop-small : "(min-width: 701px)";
+$tablet : "(min-width: 701px) and (max-width: 768px) and (min-resolution: 192dpi) ";
+$retina-small : "(min-width: 769px) and (min-resolution: 192dpi)";
+
+$desktop-medium : "(min-width: 1281px)";
+$retina-medium : "(min-width: 1281px) and (min-resolution: 192dpi)";
+
+$desktop-large : "(min-width: 1441px)";
+$retina-large : "(min-width: 1441px) and (min-resolution: 192dpi)";
+
+// MIXINS
+
+@mixin mobile($url, $padding-bottom) {
+	
+	background-image: url('#{$url}?$mobile$');
+	padding-bottom: $padding-bottom;
+
+	@media #{$desktop-small} {
+		display: none;
+	}
+}
+
+@mixin image($url, $padding-bottom) {
+
+	@media #{$desktop-small} {
+		background-image: url('#{$url}?$desktop$');
+		padding-bottom: $padding-bottom;
+	}
+	@media #{$tablet} {
+		background-image: url('#{$url}?$retina-sm$');
+	}
+	@media #{$retina-small} {
+		background-image: url('#{$url}?$retina$');
+	}
+
+}
+
+@mixin true-fw($url, $vw-height, $max-height) {
+
+	@media #{$desktop-small} {
+		background-image: url('#{$url}?$desktop-sm$');
+		height: $vw-height;
+		max-height: $max-height;
+	}
+	@media #{$retina-small} {
+		background-image: url('#{$url}?$retina-sm$');
+	}
+	@media #{$tablet} {
+		background-image: url('#{$url}?$tablet-tfw$');
+	}
+	@media #{$desktop-medium}{
+		background-image: url('#{$url}?$desktop-md$');
+	}
+	@media #{$retina-medium}{
+		background-image: url('#{$url}?$retina-md$');
+	}
+
+	@media #{$desktop-large}{
+		background-image: url('#{$url}?$desktop$');
+	}
+	@media #{$retina-large}{
+		background-image: url('#{$url}?$retina$');
+	}
+}
+
+@mixin extend-fw($url, $padding-bottom) {
+
+	@media #{$desktop-small} {
+		background-image: url('#{$url}?$desktop-sm_crop$');
+		padding-bottom: $padding-bottom;
+	}
+	@media #{$retina-small} {
+		background-image: url('#{$url}?$retina-sm_crop$')
+	}
+	@media #{$tablet} {
+		background-image: url('#{$url}?$tablet-efw$');
+	}
+	@media #{$desktop-medium} {
+		background-image: url('#{$url}?$desktop-md_crop$');
+	}
+	@media #{$retina-medium} {
+		background-image: url('#{$url}?$retina-md_crop$');
+	}
+
+	@media #{$desktop-large} {
+		background-image: url('#{$url}?$desktop$');
+	}
+	@media #{$retina-large} {
+		background-image: url('#{$url}?$retina$');
+	}
+}
+
+.image {
+	background-size: auto 100%;
+}

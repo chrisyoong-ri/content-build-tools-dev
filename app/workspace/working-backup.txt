@@ -1,0 +1,419 @@
+.live-cta-dark.menstrends__cta {
+  left: 50%;
+  top: 85.5%;
+}
+
+.promo-1 {
+  margin-bottom: 1em;
+}
+
+.trends-18 a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}/*  */.campaign-2,.campaign-3,.campaign-4 {
+  width: 100%;
+  height: 100%;
+}
+
+.campaign-1 {
+  position: relative;
+  z-index: 5;
+  opacity: 1;
+}
+
+.campaign-2,.campaign-3,.campaign-4 {
+  z-index: 1;
+}
+
+footer,.info-strip-container {
+  background-color: #ffffff;
+}
+
+footer {
+  margin-top: 0;
+}
+
+.content-wrap {
+  max-width: 1200px;
+}
+
+.fixed-menu {
+  position: absolute;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1% 0 1%;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  max-width: 2000px;
+  width: 100%;
+  z-index: 11;
+  text-transform: uppercase;
+}
+
+.fixed-menu a {
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+}
+
+.fixed-menu a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.fixed-menu li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 1%;
+}
+
+.fixed-menu-underline {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.black-arrow {
+  position: absolute;
+  background-image: url("https://riverisland.scene7.com/is/image/RiverIsland/c20160525-wk23-hp-get-inspired-mobilearrow-left_DNT?$PNG%20Alpha%20Transparency$&scl=1");
+  width: 3%;
+  padding-bottom: 3%;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%) rotate(-90deg);
+          transform: translateX(-50%) rotate(-90deg);
+  z-index: 5;
+  background-size: auto 100%;
+  margin-bottom: 1%;
+}
+
+.content-wrap .promos,.content-wrap .hero {
+  height: auto;
+}
+
+.desk-promo-1 {
+  width: 50%;
+  height: 60vw;
+  max-height: 1200px;
+  float: left;
+}
+
+.desk-promo-2 {
+  width: 50%;
+  height: 60vw;
+  max-height: 1200px;
+  float: right;
+}/* TOP HERO */.top-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans_hero_desktop_DNT?$desktop$);
+  height: 50vw;
+  max-height: 1000px;
+}
+
+.campaign-1 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend1_promo1b_desktop_DNT?$desktop$);
+  height: 50vw;
+  max-height: 1000px;
+}
+
+.campaign-1 .desk-promo-1 {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend1_promo2_desktop_DNT?$desktop$);
+}
+
+.campaign-1 .desk-promo-2 {
+  background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/_Live/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%201/c20170130_MW-trends_trans-trend1_promo3gif_desktop_DNT.gif?$desktop$);
+}/* CAMPAIGN 2 */.campaign-2 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend2_promo1b_desktop_DNT?$desktop$);
+  height: 50vw;
+  max-height: 1000px;
+}
+
+.campaign-2 .desk-promo-1 {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend2_promo2_desktop_DNT?$desktop$);
+}
+
+.campaign-2 .desk-promo-2 {
+  background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/_Live/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%202/c20170130_MW-trends_trans-trend2_promo3gif_desktop_DNT.gif?$desktop$);
+}
+
+.campaign-2 .desk-promo-3 {
+  height: 0;
+}/* CAMPAIGN 3 */.campaign-3 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend3_promo1b_desktop_DNT?$desktop$);
+  height: 50vw;
+  max-height: 1000px;
+}
+
+.campaign-3 .desk-promo-1 {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend3_promo2_desktop_DNT?$desktop$);
+}
+
+.campaign-3 .desk-promo-2 {
+  background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/_Live/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%203/c20170130_MW-trends_trans-trend3_promo3gif_desktop_DNT.gif?$desktop$);
+}/* CAMPAIGN 4 */.campaign-4 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend4_promo1b_desktop_DNT?$desktop$);
+  height: 50vw;
+  max-height: 1000px;
+}
+
+.campaign-4 .desk-promo-1 {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend4_promo2_desktop_DNT?$desktop$);
+}
+
+.campaign-4 .desk-promo-2 {
+  background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/_Live/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%204/c20170130_MW-trends_trans-trend4_promo3gif_desktop_DNT.gif?$desktop$);
+}
+
+.campaign-4 .desk-promo-3 {
+  height: 0;
+}
+
+.desk-promo-4 video {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 80%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.region-US .campaign-1 .desk-hero,.region-SE .campaign-1 .desk-hero,.region-IE .campaign-1 .desk-hero,.region-AU .campaign-1 .desk-hero,.region-EU .campaign-1 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend1_promo1b_desktop_DNT_int?$desktop$);
+}
+
+.region-US .campaign-1 .mob-cta,.region-SE .campaign-1 .mob-cta,.region-IE .campaign-1 .mob-cta,.region-AU .campaign-1 .mob-cta,.region-EU .campaign-1 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fcta%5Fmobile%5FDNT_int?$mobile$);
+}
+
+.region-US .campaign-2 .desk-hero,.region-SE .campaign-2 .desk-hero,.region-IE .campaign-2 .desk-hero,.region-AU .campaign-2 .desk-hero,.region-EU .campaign-2 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend2_promo1b_desktop_DNT_int?$desktop$);
+}
+
+.region-US .campaign-2 .mob-cta,.region-SE .campaign-2 .mob-cta,.region-IE .campaign-2 .mob-cta,.region-AU .campaign-2 .mob-cta,.region-EU .campaign-2 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fcta%5Fmobile%5FDNT_int?$mobile$);
+}
+
+.region-US .campaign-3 .desk-hero,.region-SE .campaign-3 .desk-hero,.region-IE .campaign-3 .desk-hero,.region-AU .campaign-3 .desk-hero,.region-EU .campaign-3 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend3_promo1b_desktop_DNT_int?$desktop$);
+}
+
+.region-US .campaign-3 .mob-cta,.region-SE .campaign-3 .mob-cta,.region-IE .campaign-3 .mob-cta,.region-AU .campaign-3 .mob-cta,.region-EU .campaign-3 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fcta%5Fmobile%5FDNT_int?$mobile$);
+}
+
+.region-US .campaign-4 .desk-hero,.region-SE .campaign-4 .desk-hero,.region-IE .campaign-4 .desk-hero,.region-AU .campaign-4 .desk-hero,.region-EU .campaign-4 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend4_promo1b_desktop_DNT_int?$desktop$);
+}
+
+.region-US .campaign-4 .mob-cta,.region-SE .campaign-4 .mob-cta,.region-IE .campaign-4 .mob-cta,.region-AU .campaign-4 .mob-cta,.region-EU .campaign-4 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fcta%5Fmobile%5FDNT_int?$mobile$);
+}
+
+.region-FR .campaign-1 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend1_promo1b_desktop_DNT_fr?$desktop$);
+}
+
+.region-FR .campaign-1 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fcta%5Fmobile%5FDNT_fr?$mobile$);
+}
+
+.region-FR .campaign-2 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend2_promo1b_desktop_DNT_fr?$desktop$);
+}
+
+.region-FR .campaign-2 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fcta%5Fmobile%5FDNT_fr?$mobile$);
+}
+
+.region-FR .campaign-3 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend3_promo1b_desktop_DNT_fr?$desktop$);
+}
+
+.region-FR .campaign-3 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fcta%5Fmobile%5FDNT_fr?$mobile$);
+}
+
+.region-FR .campaign-4 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend4_promo1b_desktop_DNT_fr?$desktop$);
+}
+
+.region-FR .campaign-4 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fcta%5Fmobile%5FDNT_fr?$mobile$);
+}
+
+.region-DE .campaign-1 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend1_promo1b_desktop_DNT_de?$desktop$);
+}
+
+.region-DE .campaign-1 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fcta%5Fmobile%5FDNT_de?$mobile$);
+}
+
+.region-DE .campaign-2 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend2_promo1b_desktop_DNT_de?$desktop$);
+}
+
+.region-DE .campaign-2 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fcta%5Fmobile%5FDNT_de?$mobile$);
+}
+
+.region-DE .campaign-3 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend3_promo1b_desktop_DNT_de?$desktop$);
+}
+
+.region-DE .campaign-3 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fcta%5Fmobile%5FDNT_de?$mobile$);
+}
+
+.region-DE .campaign-4 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend4_promo1b_desktop_DNT_de?$desktop$);
+}
+
+.region-DE .campaign-4 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fcta%5Fmobile%5FDNT_de?$mobile$);
+}
+
+.region-NL .campaign-1 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend1_promo1b_desktop_DNT_nl?$desktop$);
+}
+
+.region-NL .campaign-1 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fcta%5Fmobile%5FDNT_nl?$mobile$);
+}
+
+.region-NL .campaign-2 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend2_promo1b_desktop_DNT_nl?$desktop$);
+}
+
+.region-NL .campaign-2 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fcta%5Fmobile%5FDNT_nl?$mobile$);
+}
+
+.region-NL .campaign-3 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend3_promo1b_desktop_DNT_nl?$desktop$);
+}
+
+.region-NL .campaign-3 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fcta%5Fmobile%5FDNT_nl?$mobile$);
+}
+
+.region-NL .campaign-4 .desk-hero {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130_MW-trends_trans-trend4_promo1b_desktop_DNT_nl?$desktop$);
+}
+
+.region-NL .campaign-4 .mob-cta {
+  background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fcta%5Fmobile%5FDNT_nl?$mobile$);
+}
+
+@media (max-width: 700px) {
+  .fixed-menu li {
+    font-size: 3.8vw;
+  }
+
+  .fixed-bg {
+    display: none;
+  }
+
+  #page.content ul {
+    margin: 0;
+  }
+
+  .promo-1,.promo-2,.promo-3,.promo-4,.promo-5,.hero {
+    padding-bottom: 0;
+    height: 0;
+    background-image: none;
+  }
+
+  .black-arrow {
+    display: none;
+  }
+
+  .mob-top-hero {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%5Fhero%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 150%;
+  }/* CAMPAIGN 1 */  .campaign-1 .mob-promo-1 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fpromo1%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 150%;
+    margin-top: 28px;
+  }
+
+  .campaign-1 .mob-promo-2 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fpromo2%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 137.903%;
+  }
+
+  .campaign-1 .mob-promo-3 {
+    background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/%5FLive/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%201/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fpromo3gif%5Fmobile%5FDNT.gif?$mobile$);
+    padding-bottom: 137.903%;
+  }
+
+  .campaign-1 .mob-cta {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend1%5Fcta%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 12.903%;
+  }/* CAMPAIGN 2 */  .campaign-2 .mob-promo-1 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fpromo1%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 150%;
+  }
+
+  .campaign-2 .mob-promo-2 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fpromo2%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 140.968%;
+  }
+
+  .campaign-2 .mob-promo-3 {
+    background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/%5FLive/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%202/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fpromo3gif%5Fmobile%5FDNT.gif?$mobile$);
+    padding-bottom: 151.452%;
+  }
+
+  .campaign-2 .mob-cta {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend2%5Fcta%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 12.903%;
+  }
+
+  .campaign-3 .mob-promo-1 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fpromo1%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 150%;
+  }
+
+  .campaign-3 .mob-promo-2 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fpromo2%5Fmobile%5FDNT?$desktop$);
+    padding-bottom: 142.742%;
+  }
+
+  .campaign-3 .mob-promo-3 {
+    background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/%5FLive/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%203/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fpromo3gif%5Fmobile%5FDNT.gif?$desktop$);
+    padding-bottom: 140.484%;
+  }
+
+  .campaign-3 .mob-cta {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend3%5Fcta%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 12.903%;
+  }/* CAMPAIGN 4 */  .campaign-4 .mob-promo-1 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fpromo1%5Fmobile%5FDNT?$desktop$);
+    padding-bottom: 150%;
+  }
+
+  .campaign-4 .mob-promo-2 {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fpromo2%5Fmobile%5FDNT?$desktop$);
+    padding-bottom: 142.742%;
+  }
+
+  .campaign-4 .mob-promo-3 {
+    background-image: url(https://riverisland.scene7.com/is/content/RiverIsland/%5FLive/RI%20WEBSITE/18/Content/1.January/Orphan%20Pages/MW%20SPRING%20TRENDS/Trend%204/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fpromo3gif%5Fmobile%5FDNT.gif?$desktop$);
+    padding-bottom: 140.484%;
+  }
+
+  .campaign-4 .mob-cta {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20170130%5FMW%2Dtrends%5Ftrans%2Dtrend4%5Fcta%5Fmobile%5FDNT?$mobile$);
+    padding-bottom: 12.903%;
+  }
+
+  .fixed-menu li {
+    font-size: 3.8vw;
+  }
+}
