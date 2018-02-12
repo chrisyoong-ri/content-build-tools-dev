@@ -1,0 +1,291 @@
+.kids-lp h2 {
+    color: black;
+    font-size: 1.7em;
+    font-weight: 600;
+    line-height: 2.3em;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.kids-lp h3 {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 800;
+    line-height: inherit;
+    text-align: left;
+    margin-bottom:1em;
+}
+
+.kids-lp li {
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    margin: 0;
+    text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+    .kids-lp h2 {
+        font-size: 2vw;
+    }
+    .kids-lp h3 {
+        font-size: 1.5vw;
+    }
+    .kids-lp li {
+        font-size: 1.2vw;
+    }
+}
+
+.kids-lp li a {
+    color: #000;
+}
+.kids-lp li a:hover {
+    color: #00aeef;
+}
+
+.kids-lp hr {
+    background: #808b9d;
+    height: 0.3em;
+    margin-top: 0;
+    margin-bottom: 1.8%;
+}
+
+.kids-lp .desktop-links {
+    width: 100%;
+    clear: both;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+.kids-lp .shop-girls {
+    width: 40%;
+    height: auto;
+    float: left;
+    clear: right;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: inline;
+    box-shadow: inset -1px 0px 0 0 black;
+}
+
+.kids-lp .shop-girls-all {
+    width: 40%;
+    height: auto;
+    float: left;
+    clear: right;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: inline;
+    margin-top: 5%;
+}
+
+.kids-lp .shop-boys {
+    width: 40%;
+    height: auto;
+    float: left;
+    clear: right;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: inline;
+    /* box-shadow: inset 1px 0px 0 0 black; */
+}
+.kids-lp .shop-boys-all {
+    width: 40%;
+    height: auto;
+    float: left;
+    clear: right;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: inline;
+    margin-top: 5%;
+}
+
+.kids-lp .girls,
+.kids-lp .girls-all,
+.kids-lp .mini-girls,
+.kids-lp .boys,
+.kids-lp .boys-all,
+.kids-lp .mini-boys {
+    display: inline-block;
+    float: left;
+    padding: 0 5%;
+    width: 40%;
+    /* margin-top: 5%; */
+}
+.kids-lp .girls-all,
+.kids-lp .boys-all {
+    display: inline-block;
+    float: left;
+    padding: 0 21%;
+    width: 40%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+/*---- FULL WIDTH ----*/
+
+.kids-lp .full-width {
+    position: relative;
+    overflow: visible;
+}
+
+.kids-lp .full-width-left,
+.kids-lp .full-width-right {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    position: absolute;
+    right: 100%;
+    width: 50%;
+    top: 0;
+    height: 100%;
+}
+
+.kids-lp .full-width-right {
+    background-position: top left;
+    right: auto;
+    left: 100%;
+}
+
+.kids-lp .middle-top {
+    text-align: center;
+}.kids-lp .middle {
+    padding: 0 21%;
+}
+/*IMAGES*/
+
+.kids-lp .hero {
+    background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180902-kids-gift-page-hero_DNT?$desktop$);
+    padding-bottom: 45.5%;
+    margin-top: 10%;
+}
+
+@media (min-width: 1218px) {
+         .sale-left, .sale-right {
+            position: absolute;
+            background: #facfd8;
+            width: 50%;
+        }
+        .sale-left {
+            height: 542px;
+            left: -50%; 
+        }
+        .sale-right {
+            height: 542px;
+            right: -50%; 
+        }
+    }
+
+
+
+
+/* SMALL SCREEN DISPLAY */
+
+@media only screen and (max-width: 700px) {
+
+
+    /* RETINA DISPLAY */
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .kids-lp .hero {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180902-kids-gift-page-hero-mob_DNT?$retina$);
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .kids-lp .copy-break-2 {
+        padding-top: 0;
+    }
+}
+
+
+
+    .kids-lp {
+        margin-top: 10px;
+    }
+    .desktop-section {
+        display: none;
+    }
+    .mob-section {
+        display: block;
+        margin-bottom: 2.1%;
+    }
+    .kids-lp h3 {
+        color: black;
+        font-size: 3.6vw;
+        font-weight: 500;
+        line-height: inherit;
+        text-align: center;
+    }
+    hr.section-div {
+        background: #ccc;
+        height: 1px;
+        margin: 0 auto 3%;
+        display: table;
+        width: 90%;
+    }
+    .links-section {
+        width: 100%;
+        display: inline-block;
+    }
+    .links-section.girls-mob {
+        padding: 2.5% 0;
+        border-top: solid 1px #ccc;
+        border-bottom: solid 1px #ccc;
+    }
+    .links-section.boys-mob {
+        padding: 2.5% 0;
+        border-bottom: solid 1px #ccc;
+        margin-bottom: 2%;
+    }
+    .links-section.girls-mob-all {
+        padding: 2.5% 0;
+        border-bottom: solid 1px #ccc;
+        margin-bottom: 2%;
+    }
+    .links-section.boys-mob-all {
+        padding: 2.5% 0;
+        border-bottom: solid 1px #ccc;
+        margin-bottom: 2%;
+    }
+    .links-section .mob-left,
+    .links-section .mob-right {
+        width: 49%;
+        height: auto;
+        float: left;
+        clear: right;
+    }
+    #page.content ul {
+        margin: 0;
+    }
+    .links-section ul {
+        width: 100%;
+        height: auto;
+        float: left;
+        clear: right;
+        text-align: center;
+    }
+    .links-section .mob-left ul {
+        border-right: solid 1px #ccc;
+    }
+    .links-section ul li {
+        font-size: 2.6vw;
+        font-weight: 500;
+        margin: 4%;
+    }
+    
+    .links-section ul li a {
+        color: black;
+        display: block;
+        padding: 2% 1%;
+        text-transform: capitalize;
+    }
+    .hero-mob {
+        background-image: url(https://riverisland.scene7.com/is/image/RiverIsland/c20180902-kids-gift-page-hero-mob_DNT?$mobile$);
+        padding-bottom: 91.548%;
+    }
+
+}
