@@ -1,0 +1,247 @@
+@import 'config';
+// DESKTOP
+// BACKGROUND
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fbackground%5Fdesktop%5FDNT
+// HEADER TEXT
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fheader%5Fdesktop%5FDNT
+// PRM 1
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fpromo1%5Fdesktop%5FDNT
+// WOMEN’S GIFTS>
+// 
+// PRM 2
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fpromo2%5Fdesktop%5FDNT
+// MEN’S GIFTS>
+// NEWSLETTER BOX
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fnewsletterbackground%5Fdesktop%5FDNT
+// NEWSLETTER SIGN UP>
+// 
+// COPY
+// Christmas Holding Page
+// Counting down the days until Christmas? Us too! Us festive-filled folk need to stick together. A wise person once told us, it’s never too early to start your Christmas shopping and we couldn’t agree more! From little stocking fillers and in-betweeny gifts to the main present, start putting together your wish list, planning what to get your loved ones or getting ready to treat yourself because we have it all at River Island! Consider RI to be your own personal Santa’s Grotto…
+// What’s one of the things we love about Christmas you ask? Well apart from the food and the naps, it’s the fact that it’s party season! We love a good excuse to get dressed up and go out dancing with our friends and that’s exactly why we have such an extensive range of Christmas party outfits! Whether you’re looking for a show-stopping sequin dress or a sophisticated LBD, check out our offering of Christmas dresses. Is your little person excited for the festive fun? Don’t forget to check out selection of kids’ Christmas outfits either. Santa has given us his stamp of approval and insists that everyone on his nice list gets a treat from RI this Christmas!
+// What’s Christmas without a Christmas jumper? Luckily for you, we’ve got plenty to choose from. Go all out in a traditional, retro style jumper if novelty is your thing, or go for one of our more subtle trend-led designs. Don’t want to ditch your dress? Our range of Christmas jumper dresses are the answer. Not a jumper fan? We’ve also got Christmas t-shirts or tops for those who want to be a little more casual with it.
+// Look forward to Christmas dinner, get excited about seeing love ones and count down until the day you can unwrap some RI of your very own!
+// MOBILE
+// HERO
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fheader%5Fmobile%5FDNT
+// PRM 1
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fpromo1%5Fmobile%5FDNT
+// WOMEN’S GIFTS>
+// PRM 2
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fpromo2%5Fmobile%5FDNT
+// MEN’S GIFTS>
+// BODY COPY
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fbodycopy%5Fmobile%5FDNT
+// NEWSLETTER BOX
+// https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fsignupcta%5Fmobile%5FDNT
+// NEWSLETTER SIGN UP>
+#outer-container #inner-container div.site-container .full-page {
+    padding: 0!important;
+}
+
+.content-wrap {
+    max-width: 2000px;
+}
+
+.ri-full-width {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+@include extend-fw( $name:'black-friday-lp', $flush: '_new', $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180215%5Fchristmas%5Fbackground%5Fdesktop%5FDNT');
+.black-friday-lp {
+    background-repeat: no-repeat;
+    padding-bottom: 2% !important // override content build tools
+}
+
+.product-1 {
+    padding-bottom: 138.583%;
+    background-image: url('https://riverisland.scene7.com/is/image/RiverIsland/c20180215_christmas_promo1_desktop_DNT?$PNG%20Alpha%20Transparency$&scl=2');
+}
+
+.product-2 {
+    padding-bottom: 138.583%;
+    background-image: url('https://riverisland.scene7.com/is/image/RiverIsland/c20180215_christmas_promo2_desktop_DNT?$PNG%20Alpha%20Transparency$&scl=2');
+}
+
+h1 {
+    line-height: initial;
+    font-size: 5em;
+}
+
+h1,
+h2 {
+    font-weight: 500;
+}
+
+hr {
+    max-width: 600px;
+    width: 100%;
+    margin: 3% auto;
+    display: block;
+    font-size: 6em;
+}
+
+.hero {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    .headline {
+        width: 100%;
+        height: auto;
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+    p {
+        text-align: center;
+        color: #FFF;
+    }
+}
+
+.hero h1 {
+    padding-top: 5%;
+}
+
+.hero h2,
+.hero p {
+    margin: 6% 0 6% 0;
+}
+
+.newsletterbox {
+    border: 10px solid #E6DBD5;
+    padding: 50px 30px 120px 30px;
+    margin-top: 10%;
+    h3 {
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1.4em;
+        font-weight: 500;
+        margin-bottom: 1em;
+    }
+    .live-cta-light {
+        background: rgba(255, 255, 255, 0.9)
+    }
+}
+
+.clock {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clock p {
+    display: inline-block;
+    margin: 0.5em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.ajax-cont {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.ajax-zone {
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+}
+
+.ajax-zone .live-cta-dark {
+    margin: 12% auto;
+    min-width: 10em;
+    background-color: #000000;
+    position: relative;
+    transform: none;
+}
+
+.random-cat-image {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.random-cat-image img {
+    width: 100%;
+    border: 1px solid #cccccc7d;
+}
+
+#ajax-1 {
+    margin-right: 1%;
+}
+
+#ajax-2 {
+    margin-left: 1%;
+}
+
+.promo-2 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.promo-2 h1,
+.promo-2 h2,
+.promo-2 p {
+    margin-top: 3%;
+}
+
+.promo-2 .live-cta-dark {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 3%;
+    background-color: #000000;
+}
+
+
+/* RETINA DISPLAY */
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {}
+
+
+/* SMALL SCREEN DISPLAY */
+
+@media only screen and (max-width: 700px) {
+    .black-friday-lp {
+        padding: 0 4%;
+        width: 92%;
+        background-image: url("https://riverisland.scene7.com/is/image/RiverIsland/c20180215_christmas_header_mobile_DNT?scl=1");
+    }
+    .content-wrap {
+        padding: 0;
+    }
+    .ajax-zone {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+    #ajax-1 {
+        margin-top: 1%;
+        margin-right: auto;
+    }
+    #ajax-2 {
+        margin-top: 1%;
+        margin-left: auto;
+    }
+    .hero {
+        p {
+            background: rgba(173, 27, 60, 0.5);
+        }
+    }
+    // .promo-2 h2 {
+    //     line-height: initial;
+    // }
+}
+
+@media only screen and (max-width: 427px) {
+    .clock p {
+        width: 30%;
+    }
+}

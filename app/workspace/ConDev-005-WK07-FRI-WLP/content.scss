@@ -1,0 +1,264 @@
+@import 'config';
+.top-holder {
+    position: fixed;
+    z-index: 10000;
+    top: 46px;
+    width: 95%;
+    background: #fff;
+    border-top: 12px solid #fff;
+}
+
+.top-tab {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    background: #e8e7ec;
+    padding: 19px 0px;
+    border-radius: 3px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.first1:after {
+    content: '';
+    top: 100%;
+    left: 27%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #000;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.second:after {
+    content: '';
+    top: 100%;
+    left: 77%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #000;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.insp {
+    display: none;
+}
+
+.first1,
+.second {
+    background: #000;
+    color: #fff;
+}
+
+.second:after {
+    content: '';
+    top: 100%;
+    left: 77%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #000;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.first1:after {
+    content: '';
+    top: 100%;
+    left: 27%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-top-color: #000;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+@include mobile( $name: 'hero-mob', $marginBottom: 3%, $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_hero_mob_DNT');
+@include mobile( $name: 'prm1-mob', $marginBottom: 3%, $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_mob1_DNT');
+@include mobile( $name: 'prm2-mob', $marginBottom: 3%, $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_mob2_DNT');
+@include mobile( $name: 'prm3-mob', $marginBottom: 3%, $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_hero2_mob_DNT');
+@include mobile( $name: 'prm4-mob', $marginBottom: 3%, $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_mob3_DNT');
+@include mobile( $name: 'ri-studio-banner-mob', $marginBottom: 3%, $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_get-inspired_mob_DNT');
+@include mobile( $name: 'get-inspired-mob', $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_get-inspire1_mob_DNT', $marginBottom: 10%, $marginTop: 28%);
+@include mobile( $name: 'prm5-mob', $marginBottom: 10%, $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180208_wwlp_inspired_DNT');
+@include mobile( $name: 'flash-sale-mob', $url: 'https://riverisland.scene7.com/is/content/RiverIsland/c20180212-wwlp-flash-sale-banner-mob_DNT');
+.links-section {
+    text-align: center;
+    padding: 1% 0;
+    margin-bottom: 7%;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    &-first {
+        margin-top: 85px;
+    }
+    li {
+        padding: 3%;
+    }
+    a {
+        font-size: 96%;
+        padding: 3% 0;
+        font-weight: 500;
+        color: #000000 !important;
+    }
+}
+
+// Desktop
+@include extend-fw( $name:'hero', $marginBottom: 3%, $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_hero_DNT');
+@include extend-fw( $name:'flash-sale', $url:'https://riverisland.scene7.com/is/content/RiverIsland/c20180212-wwlp-flash-sale-banner_DNT', $marginBottom: 3%, $marginTop:1%);
+@include image( $name:'promo-1', $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180214-gwlp-promo-1_DNT', $marginBottom: 2%);
+@include image( $name:'feb-edit', $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180214-february%20edit%20banner_DNT', $marginBottom: 3%);
+@include image( $name:'promo-2', $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180214-gwlp-promo-2_DNT', $marginBottom: 3%);
+.prm1 {
+    @include image( $name: 'box-1', $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_promo1_DNT');
+    @include image( $name: 'box-2', $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_promo2_DNT');
+    @include image( $name: 'box-3', $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_promo3_DNT');
+}
+
+.womens-landing-page {
+    .three-across-container {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2%;
+    }
+    .box-1,
+    .box-2,
+    .box-3 {
+        float: left;
+        width: 32%;
+        padding-bottom: 45.5% !important;
+    }
+    .box-1,
+    .box-2 {
+        margin-right: 2%;
+    }
+}
+
+@include image( $name:'prm2', $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_hero2_DNT', $marginBottom: 3%);
+@include image( $name:'prm3', $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_promo4_DNT');
+@include image( $name:'holiday-banner', $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180208_wwlp_holiday-shop-banner_DNT', $marginBottom: 3%);
+// @include image(
+//   $name:'holiday-banner',
+//   $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180208_wwlp_holiday-shop-banner_DNT',
+//   $marginBottom: 3% 
+// );
+@include image( $name:'ri-studio-banner', $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_get-inspired1_DNT');
+@include image( $name:'get-inspired', $url:'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_wwlp_get-inspired2_DNT');
+.get-inspired__wrapper {
+    background: #e9e9e9;
+    padding-bottom: 2%;
+}
+
+
+/* Links Section */
+
+@media only screen and (max-width: 700px) {
+    .right,
+    .left {
+        padding-bottom: 110.86%;
+        height: 0;
+        max-height: auto;
+    }
+    .links-section ul:nth-child(1) {
+        border-right: solid 1px #000;
+    }
+    .womens-landing-page {
+        margin-top: 10px;
+    }
+    .desktop-section,
+    .shopping-catalogue-guide {
+        display: none;
+    }
+    hr.section-div {
+        background: #000;
+        height: 1px;
+        margin: 0 auto;
+        display: table;
+        width: 90%;
+    }
+    hr.section-div2 {
+        background: #000;
+        height: 1px;
+        margin: 1% auto;
+        display: table;
+        width: 90%;
+    }
+    .womens-landing-page .mob-section {
+        display: block;
+        margin-bottom: 2.1%;
+    }
+    .womens-landing-page h2 {
+        text-align: center;
+        color: #000;
+        font-weight: 400;
+        font-size: 2.125rem;
+    }
+    .womens-landing-page .copy-break {
+        margin-bottom: 2.3%;
+    }
+    .links-section {
+        width: 100%;
+        display: inline-block;
+    }
+    #page.content ul {
+        margin: 0;
+    }
+    .links-section ul {
+        width: 49%;
+        height: auto;
+        float: left;
+        clear: right;
+        text-align: center;
+    }
+    .links-section ul:nth-child(1) {
+        border-right: solid 1px #ccc;
+    }
+    .links-section ul li {
+        font-size: calc(0.9em + 1vw);
+        font-weight: 500;
+        margin: 7%;
+    }
+    .links-section ul li a {
+        color: black;
+        display: block;
+        padding: 2% 1%;
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .links-section ul li {
+        margin: 0;
+    }
+    .links-section li {
+        padding: 3%;
+    }
+    .links-section a {
+        font-size: 96%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .links-section a {
+        font-size: 88%;
+    }
+}
+
+vt6
