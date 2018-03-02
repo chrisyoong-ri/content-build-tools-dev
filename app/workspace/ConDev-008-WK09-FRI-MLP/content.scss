@@ -1,0 +1,170 @@
+@import 'config';
+
+/* Mobile */
+@include mobile(
+  $name: 'hero-mob',
+  $flush: '',
+  $marginBottom: 5%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_hero_mob_DNT'
+);
+@include mobile(
+  $name: 'prm1-mob',
+  $flush: '',
+  $marginBottom: 5%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_mob1_DNT'
+);
+@include mobile(
+  $name: 'prm2-mob',
+  $flush: '',
+  $marginBottom: 5%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_mob2_DNT'
+);
+@include mobile(
+  $name: 'prm3-mob',
+  $flush: '',
+  $marginBottom: 5%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_mob3_DNT'
+);
+@include mobile(
+  $name: 'brands-mob',
+  $flush: '',
+  $marginBottom: 5%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180214_mwlp_BrandsBanner_mob_DNT'
+);
+@include mobile(
+  $name: 'trends-mob',
+  $flush: '',
+  $marginBottom: 5%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_mwlp_TRENDS_mob_DNT',
+  $urlFR: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_mwlp_TRENDS_mob_DNT_fr',
+  $urlDE: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_mwlp_TRENDS_mob_DNT_de',
+  $urlNL: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_mwlp_TRENDS_mob_DNT_nl'
+);
+@include mobile(
+  $name: 'labels-mob',
+  $flush: '',
+  $marginBottom: 5%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180208_mwlp_Label_adcam_mob_DNT',
+  $urlFR: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180208_mwlp_Label_adcam_mob_DNT_fr',
+  $urlDE: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180208_mwlp_Label_adcam_mob_DNT_de',
+  $urlNL: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180208_mwlp_Label_adcam_mob_DNT_nl'
+);
+
+/* Desktop */
+@include extend-fw(
+  $name: 'hero',
+  $flush: '',
+  $marginBottom: 3%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_hero_DNT'
+);
+@include image(
+  $name: 'three-across-left-1',
+  $flush: '',
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_promo1_DNT'
+);
+@include image(
+  $name: 'three-across-middle-1',
+  $flush: 'f_',
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_promo2_DNT'
+);
+@include image(
+  $name: 'three-across-right-1',
+  $flush: '',
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_promo3_DNT'
+);
+@include image(
+  $name: 'prm2',
+  $flush: '',
+  $marginTop: 2%,
+  $marginBottom: 1%,
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180221_hp_promo4_DNT'
+);
+@include image(
+  $name: 'brands',
+  $flush: '',
+  $marginBottom: 3%,  
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180214_mwlp_BrandsBanner_DNT'
+);
+@include image(
+  $name: 'trends',
+  $flush: '',
+  $marginBottom: 3%,  
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180215_mwlp_TRENDS_DNT'
+);
+@include image(
+  $name: 'labels',
+  $flush: '',
+  $marginBottom: 3%,  
+  $url: 'https://riverisland.scene7.com/is/image/RiverIsland/c20180208_mwlp_Label_adcam_DNT'
+);
+
+.mens-landing-page .three-across-container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mens-landing-page .three-across-left-1,
+.mens-landing-page .three-across-middle-1,
+.mens-landing-page .three-across-right-1 {
+    padding-bottom: 45.5% !important;
+    float: left;
+    width: 32%;
+}
+
+.mens-landing-page .three-across-left-1,
+.mens-landing-page .three-across-middle-1 {
+    margin-right: 2%;
+}
+
+/* Links Section */
+@media only screen and (max-width: 700px) {
+  hr.section-div {
+      background: #000;
+      height: 1px;
+      margin: 0 auto;
+      display: table;
+      width: 90%;
+  }
+  .links-section {
+      width: 100%;
+      display: inline-block;
+  }
+  .links-section ul {
+      width: 49%;
+      height: auto;
+      float: left;
+      clear: right;
+      text-align: center;
+  }
+  .links-section ul:nth-child(1) {
+      border-right: solid 1px #000;
+  }
+  .links-section ul li {
+      font-size: calc(0.9em + 1vw);
+      font-weight: 500;
+      margin: 7%;
+  }
+  .links-section ul li a {
+      color: black;
+      display: block;
+      padding: 2% 1%;
+      color: #000;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .links-section ul li {
+      margin: 0;
+  }
+  .links-section li {
+      padding: 3%;
+  }
+  .links-section a {
+      font-size: 87%;
+  }
+}
+// @media only screen and (max-width: 340px) {
+//   .links-section a {
+//       font-size: 88%;
+//   }
+// }
